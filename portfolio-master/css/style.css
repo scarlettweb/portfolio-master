@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda|Montserrat:300,400,500,600,700,900|Shadows+Into+Light+Two&display=swap');
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Shadows Into Light Two';
+}
+
+body{
+	font-family: 'Montserrat' regular;
+	font-size: 14px;
+	color: #212529;
+}
+
+p {
+	font-size: 18px;
+}
+
+header {
+	position: absolute;
+}
+
+.section{
+	padding:50px 0;
+	min-height:300px;
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #000 !important;
+}
+
+#intro { 
+	background-image: url("../img/scarmilmil.png"); 
+	background-color: #D0C9CC;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 25% 0%;
+}
+
+.btn-light {
+	color: #FFFFFF;
+	font-size: 15px;
+	font-family: 'Montserrat' 'light';
+	border: 1px solid #000; 
+	background-color: #040404;
+	padding: 10px 30px;
+}
+
+.btn-light:hover {
+	background-color: black;
+	border: 1px solid #000000;
+}
+
+#contact .btn-light {
+	margin-left: 38%;
+}
+
+#about {
+	background-color: #E0E0E0;
+}
+.circle {
+	border-radius: 50%;
+	border-color: 1px solid #fff;
+}
+
+#portfolio {
+	background-color: #fff;
+}
+
+.carrera {
+	margin-top: 15px;
+}
+
+.divider {
+	background-color: #000000;
+}
+
+
+footer {
+	background-color: #000;
+	padding: 2% 0;
+	color: #fff;
+}
+
+#contact .fas {
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	color: #52C9EF;
+	font-size: 26px;
+}
+
+#services {
+	background-color: #E0E0E0;
+}
+
+#services .fas {
+	background-color: #52C9EF;
+	border-radius: 100%;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	color: #fff;
+	font-size: 26px;
+	margin-bottom: 15px;
+	margin-left: 245px;
+}
+
+#services h4 {
+	text-align: center;
+}
+
+#services p {
+	text-align: center;
+}
+
+.gallery {
+	position: relative;
+}
+
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	background-color: rgba(0,0,0,0.45); 
+	opacity: 0;
+	transition: 0.3s all ease-out;
+}
+
+.gallery:hover .overlay {
+	opacity: 1;
+	transition: 0.3s all ease-in;
+}
+
+.img-zoom:hover img{
+	transform: scale(1.10);
+	transition: 0.3s all ease;
+}
+
+.img-zoom img{
+	transition: 0.3s all ease;
+}
+
+.gallery-texto {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	color: #fff;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity:0;
+}
+
+.gallery-texto h4{
+	font-size: 18px;
+}
+
+.gallery-texto:hover {
+	opacity: 1;
+	transition: 0.3s all ease;
+}
+
+#portfolio .fas {
+	font-size: 40px;
+}
+
+#map {
+width: 100%;
+height: 180px;
+margin-top: 20px;
+}
